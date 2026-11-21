@@ -1,0 +1,23 @@
+{
+  "name": "scenario-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scenario text to self-contained HTML",
+  "bin": {
+    "scenario": "bin/scenario.js"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "scenario": "node bin/scenario.js",
+    "test": "node --test test/*.test.ts",
+    "web:dev": "vite --host 127.0.0.1",
+    "web:build": "vite build",
+    "web:preview": "vite preview --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}

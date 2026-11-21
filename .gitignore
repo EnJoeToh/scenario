@@ -1,0 +1,12 @@
+# Dependencies and generated files
+node_modules/
+/dist/
+/output/
+/*.html
+coverage/
+*.log
+
+# Environment configuration
+.env
+.env.*
+!.env.example

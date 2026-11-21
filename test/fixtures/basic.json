@@ -1,0 +1,17 @@
+{
+  "source": "☆ 作品\r\nシーン外\r\n■ 自動\r\n太郎「こんにちは」\r\n■ 1 導入\r\n＠ 部屋\r\n→ 終わり",
+  "expected": {
+    "nodes": [
+      { "type": "title", "text": [{ "kind": "plain", "text": "作品" }], "sourceLine": 1 },
+      { "type": "text", "text": [{ "kind": "plain", "text": "シーン外" }], "alignment": "start", "sourceLine": 2 },
+      { "type": "scene", "number": "2", "id": "scene-2", "text": [{ "kind": "plain", "text": "自動" }], "blocks": [
+        { "type": "conversation", "speaker": "太郎", "text": [{ "kind": "plain", "text": "「こんにちは」" }], "sourceLine": 4 }
+      ], "sourceLine": 3 },
+      { "type": "scene", "number": "1", "id": "scene-1", "text": [{ "kind": "plain", "text": "導入" }], "blocks": [
+        { "type": "stage", "text": [{ "kind": "plain", "text": "部屋" }], "alignment": "start", "sourceLine": 6 },
+        { "type": "text", "text": [{ "kind": "plain", "text": "終わり" }], "alignment": "end", "sourceLine": 7 }
+      ], "sourceLine": 5 }
+    ],
+    "warnings": []
+  }
+}
